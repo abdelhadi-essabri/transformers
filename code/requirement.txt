@@ -1,0 +1,2 @@
+torch # Spécifiez la version de PyTorch que vous souhaitez utiliser
+torchvision  # Optionnel, si vous avez besoin de torchvision
