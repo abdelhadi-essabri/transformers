@@ -34,4 +34,4 @@ Le projet **Transformers from Scratch** vise à implémenter un modèle Transfor
 
 1. Clonez le dépôt :
    ```bash
-   git clone https://github.com/abdelhadi-essabri/transformers.git
+     git clone https://github.com/abdelhadi-essabri/transformers.git
