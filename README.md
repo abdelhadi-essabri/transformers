@@ -15,6 +15,7 @@ Le projet **Transformers from Scratch** vise à implémenter un modèle Transfor
 ## Composants du Projet
 
 - **Modèle Transformer** : Comprend à la fois les parties encodeuse et décodeuse. Le modèle peut traiter des séquences d'entrée et générer des séquences de sortie en se basant sur les entrées.
+- - **Mécanisme d'Attention** : Le cœur du modèle Transformer, ce mécanisme permet au modèle de se concentrer sur différentes parties de la séquence d'entrée lors de la génération de la séquence de sortie. L'attention permet au modèle de peser l'importance de chaque élément de la séquence d'entrée en fonction du contexte, facilitant ainsi la capture de dépendances à long terme.
 
 - **Encodeur** : La partie du modèle qui prend une séquence d'entrée et génère des représentations d'embedding pour chaque élément de la séquence. L'encodeur est composé de plusieurs blocs empilés qui contiennent des mécanismes d'attention multi-têtes et des couches de feed-forward.
 
