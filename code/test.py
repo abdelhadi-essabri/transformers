@@ -22,7 +22,7 @@ target = torch.tensor([[0, 1, 7, 4, 3, 5, 9, 2, 8, 10, 9, 1],  # Séquence cible
 print(src.shape, target.shape)  # Devrait imprimer (2, 12) pour les deux
 
 # Créer une instance du modèle Transformer avec une dimension d'embedding de 768
-model = Transformer(embed_dim=768,  # Changement à 768
+model = Transformer(embed_dim=768,  
                     src_vocab_size=src_vocab_size,
                     target_vocab_size=target_vocab_size,
                     seq_len=seq_len,
