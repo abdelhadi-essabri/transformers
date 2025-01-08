@@ -12,7 +12,7 @@ class MultiHeadAttention(nn.Module):
         :param heads: le nombre de têtes d'attention, par défaut égal à 8.
         """
         super(MultiHeadAttention, self).__init__()
-        self.embed_dim = embed_dim  # 768 après modification
+        self.embed_dim = embed_dim  # 768 
         self.heads = heads  # 8 têtes d'attention
         # Calcul de la dimension de chaque tête. Ici, 768 / 8 = 96.
         self.head = int(self.embed_dim / self.heads)
